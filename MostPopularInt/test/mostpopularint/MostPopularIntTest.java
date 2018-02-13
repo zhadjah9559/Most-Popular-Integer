@@ -1,8 +1,8 @@
-/*
- * {Westfield State University}:Program Design 2
- * Zachary Hadjah
- * 
- */
+/*=============================================================================
+This test class will create a new array with its most populat element being 67. 
+The test will confirm that 67 is the most popular integer inside the array without
+an assertion error being triggered.
+==============================================================================*/
 package mostpopularint;
 
 import org.junit.After;
