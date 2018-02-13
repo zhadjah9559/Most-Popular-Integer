@@ -31,9 +31,10 @@ public class MostPopularIntTest {
     @Test
     public void testMostPopular() 
     {
+        int[] testArray = {67,33,22,55,77,345,263,74,67,67,456,44,342}; 
         MostPopularInt mpi = new MostPopularInt();
         System.out.println("mostPopular method");
-        assertEquals(mpi.mostPopular(), 16, EPSILON);
+        assertEquals(mpi.mostPopular(testArray), 67, EPSILON);
     }
     
 }
